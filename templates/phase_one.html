@@ -1,0 +1,29 @@
+<head>
+<title>Phase One.</title>
+</head>
+<body>
+<h1>일 Phase.</h1>
+<h2>안녕하세요 {{ name }} !</h2>
+You have:
+<ul>
+{{ the_list }}
+</ul>
+Wild Card is: IDK LOL
+<br>
+
+<h2>The free stuff:</h2>
+{{ piles }}
+
+<h2>What will you do??</h2>
+
+<form action="phase_two" method="POST">
+<select name="select_actions">
+  <option name="action" value="0">Get free stuff!</option>
+  <option name="action" value="0">Buy stuff! </option>
+  <option name="action" value="0">Sell something</option>
+  <option name="action" value="0">Build something</option>
+  <option name="action" value="0">Use wild card action!</option>
+</select>
+<input type="submit" method="POST">
+</form>
+</body>
