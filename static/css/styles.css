@@ -1,6 +1,15 @@
+@font-face {
+font-family: big_font;
+src: url('DOMISC__.TTF');
+}
+
 body {
     text-align:center;
-    font: 14px Helvetica Neue;
+    font: 14px "Helvetica Neue";
     color: lightblue;
-    background-color: yellow;
+    background-color: rgb(160, 137, 16);
+}
+
+h1, h2 {
+    font-family: big_font;
 }
