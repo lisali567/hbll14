@@ -1,15 +1,53 @@
 @font-face {
 font-family: big_font;
-src: url('https://www.github.com/lisali567/hbll14/blob/master/static/css/DOMINICA.TTF') format('truetype');
+src: url('https://github.com/lisali567/hbll14/blob/master/static/css/DOMINICA.TTF?raw=true') format('truetype');
 }
 
 body {
     text-align:center;
     font: 14px "Helvetica Neue";
-    color: lightblue;
+    color: black;
     background-color: rgb(160, 137, 16);
 }
 
 h1, h2 {
-    font-family: big_font;
+font-family: big_font;
+font-size: 45px;
+margin: 10;
+text-transform: uppercase;
+color: rgb(210, 221, 131);
+text-shadow: -2px 0 rgb(124, 82, 8), 0 2px rgb(124, 82, 8), 2px 0 rgb(124, 82, 8), 0 -1px rgb(124, 82, 8);
+}
+
+.button {
+width: 120px;
+background-color: rgb(31, 112, 16);
+border: 1px solid rgb(116, 106, 106);
+border-radius: 5px;
+height: 30px;
+color: rgb(94, 180, 78);
+text-transform: uppercase;
+font-size: 15px;
+}
+
+.option {
+
+}
+
+.textbox {
+width: 200px;
+background-color: rgb(216, 132, 25);
+border: 1px solid rgb(116, 106, 106);
+border-radius: 2px;
+height: 25px;
+font-size: 15px;
+text-align: center;
+color: rgb(117, 80, 19);
+}
+
+.select {
+background-color: rgb(99, 96, 22);
+font-size: 15px;
+text-align: center;
+color: white;
 }

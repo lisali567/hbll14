@@ -9,7 +9,7 @@ You have:
 <ul>
 {{ the_list }}
 </ul>
-Wild Card is: IDK LOL
+Wild Card is: 1 free action!
 <br>
 
 <h2>The free stuff:</h2>
@@ -18,13 +18,13 @@ Wild Card is: IDK LOL
 <h2>What will you do??</h2>
 
 <form action="phase_two" method="POST">
-<select name="select_actions">
-  <option name="action" value="0">Get free stuff!</option>
-  <option name="action" value="0">Buy stuff! </option>
-  <option name="action" value="0">Sell something</option>
-  <option name="action" value="0">Build something</option>
-  <option name="action" value="0">Use wild card action!</option>
+<select name="select_actions" class="select">
+  <option name="action" value="0" class="option">Get free stuff!</option>
+  <option name="action" value="1" class="option">Buy stuff! </option>
+  <option name="action" value="2" class="option">Sell something</option>
+  <option name="action" value="3" class="option">Build something</option>
+  <option name="action" value="4" class="option">Use wild card action!</option>
 </select>
-<input type="submit" method="POST">
+<input type="submit" method="POST" class="button">
 </form>
 </body>
